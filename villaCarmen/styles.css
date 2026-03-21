@@ -1,0 +1,29 @@
+header{
+    color: brown;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    background: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background: #bebebe;
+    color: aliceblue;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.a :hover{
+    color: red;
+}
+nav{
+    background-image: url(imagenes/frente.png);
+    background-size: cover;
+    background-position: center;
+    }

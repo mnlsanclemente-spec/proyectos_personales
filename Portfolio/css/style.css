@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: slategrey;
+}
+nav{
+    background-color: azure;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
