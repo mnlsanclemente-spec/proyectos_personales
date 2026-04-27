@@ -5,7 +5,7 @@ header{
 }
 .container{
     display: flex;
-    background: #f0f0f0;
+    background: #fbfbfb;
     padding: 10px;
     margin-bottom: 20px;
     min-height: 40px;
@@ -13,8 +13,8 @@ header{
     align-items: center;
 }
 .item{
-    background: #bebebe;
-    color: aliceblue;
+    background: #795151c6;
+    color: rgb(0, 0, 0);
     margin: 5px;
     padding: 20px;
     text-align: center;
@@ -26,4 +26,12 @@ nav{
     background-image: url(imagenes/frente.png);
     background-size: cover;
     background-position: center;
-    }
+    height: 50px;
+}
+h1{
+    color: rgb(103, 30, 30);
+    font-size: 35px;
+    margin: 0;
+    padding: 10px;
+    font-family: elevate, sans-serif;
+}
