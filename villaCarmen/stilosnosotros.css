@@ -1,8 +1,37 @@
-header{
+/* header{
     color: brown;
     padding: 20px;
     text-align: center;
+    background-image: url(imagenes/frente.png);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+} */
+nav{
+    background-image: url(imagenes/frente.png);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
 }
-h2{
+h2{ color: rgb(103, 30, 30);
+    font-size: 35px;
+    margin: 0;
+    padding: 10px;
+    font-family: elevate, sans-serif;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    color: rgb(103, 30, 30);
+}
+.pnosotros{
+    text-align: center;
+    padding: 10px;
+    color: rgb(103, 30, 30);
+}
+footer{
+    color:rgb(103, 30, 30);
     text-align: center;
 }

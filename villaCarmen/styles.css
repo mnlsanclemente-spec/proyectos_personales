@@ -1,8 +1,3 @@
-header{
-    color: brown;
-    padding: 20px;
-    text-align: center;
-}
 .container{
     display: flex;
     background: #fbfbfb;
@@ -14,19 +9,19 @@ header{
 }
 .item{
     background: #795151c6;
+    border-radius: 20px;
     color: rgb(0, 0, 0);
     margin: 5px;
     padding: 20px;
     text-align: center;
-}
-.a :hover{
-    color: red;
 }
 nav{
     background-image: url(imagenes/frente.png);
     background-size: cover;
     background-position: center;
     height: 50px;
+    padding: 20px;
+    text-align: center;
 }
 h1{
     color: rgb(103, 30, 30);
@@ -34,4 +29,13 @@ h1{
     margin: 0;
     padding: 10px;
     font-family: elevate, sans-serif;
+}
+p{
+    color:rgb(103, 30, 30);
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    color:rgb(103, 30, 30);
+    text-align: center;
 }
